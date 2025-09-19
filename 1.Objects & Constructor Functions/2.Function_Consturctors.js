@@ -6,8 +6,8 @@ function Player(name, marker) {
 const playerOne = new Player("Tim", "X");
 const playerTwo = new Player("Jenn", "O");
 
-console.log(playerOne)
-console.log(playerTwo)
+console.log("Function Constucted Player One: ",playerOne);
+console.log("Function Constucted Player Two: ",playerTwo);
 
 
 class Player_Main {
@@ -21,5 +21,5 @@ class Player_Main {
 const playerOneMain = new Player("Malik", "X");
 const playerTwoMain = new Player("Zara", "O");
 
-console.log(playerOneMain)
-console.log(playerTwoMain)
+console.log("Class Constucted Player One Main: ",playerOneMain);
+console.log("Class Constucted Player Tow Main: ",playerTwoMain);
