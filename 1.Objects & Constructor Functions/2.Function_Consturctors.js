@@ -18,8 +18,8 @@ class Player_Main {
     }
 }
 
-const playerOneMain = new Player("Malik", "X");
-const playerTwoMain = new Player("Zara", "O");
+const playerOneMain = new Player_Main("Malik", "X");
+const playerTwoMain = new Player_Main("Zara", "O");
 
 console.log("Class Constucted Player One Main: ",playerOneMain);
 console.log("Class Constucted Player Tow Main: ",playerTwoMain);
