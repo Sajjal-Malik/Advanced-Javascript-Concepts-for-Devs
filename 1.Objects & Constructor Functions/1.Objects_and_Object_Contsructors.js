@@ -23,7 +23,7 @@ const playerTwo = {
     marker: "O"
 }
 
-// constant objectName.name and objectName.marker  (property)
+// constant objectName.name and objectName.marker  (property' value)
 console.log(playerOne.name);
 console.log(playerOne.marker);
 console.log(playerTwo.name);
