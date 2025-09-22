@@ -1,3 +1,5 @@
+// prototype is like an inheritance concept
+
 let animal = { 
     eats: true,
     walk: function() {
@@ -6,8 +8,10 @@ let animal = {
 };
 let rabbit = { jumps: true };
 
-rabbit.__proto__ = animal;
+// rabbit is now inheriting from the animal object
+rabbit.__proto__ = animal; 
 
+// rabbit will have all the propertied and methods of animal object
 console.log(rabbit.eats);
 console.log(rabbit.jumps);
 console.log(rabbit.walk());
