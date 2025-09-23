@@ -22,7 +22,7 @@ function displayThankYouPage() {
 // data object
 const purchaseData = {
     customer_id: 123,
-    payment_method: 3419,
+    payment_amount: 3419,
 };
 
 // object calling method with argument(data, callback(){})
