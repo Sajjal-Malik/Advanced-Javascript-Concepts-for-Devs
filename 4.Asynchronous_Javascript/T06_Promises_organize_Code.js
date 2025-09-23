@@ -16,6 +16,12 @@ function waitingFor(name) {
     })
 }
 
+// calling the function with Promise
 waitingFor('Malik')
-    .then((name) => console.log(`${name} is caught and returned in .then()`))
+    // if promise is resolved
+    .then((Malik) => waitingFor('Bhatti ' + Malik))
+    .then((Bhatti) => waitingFor('Rana ' + Bhatti))
+    .then((Rana) => waitingFor('Bajwa ' + Rana))
+    .then(() => console.log('Greate! we got everyone NOW'))
+    // if posmise is rejected
     .catch((error) => console.log(error));
